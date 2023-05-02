@@ -1,0 +1,140 @@
+@import url(https://fonts.google.com/specimen/Alegreya+Sans);
+@import url(https://www.dafont.com/pt/japan-wave.font);
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+
+
+.menu li{
+    list-style-type: style none; 
+    padding: 0;
+    color: aliceblue;
+    display: inline;
+    background-color: #ba1d25;
+   text-decoration: none;
+   padding: 10px;
+   display:inline-block;
+   font-family: AlegreyaSans-Bold;
+   max-width: 800px;
+  
+
+
+}
+.menu li a{
+   color: aliceblue;
+   padding: 20px;
+   display: inline-block;
+   text-decoration: none;
+}
+.list{
+   
+   display: inline;
+   float: left;
+   padding:0px;
+   margin: 0;
+   width: 80px;
+   border-left: #666666 thin solid;
+}
+.cent{
+   margin: auto; /* esse cara vai centralizar*/
+   max-width: max-content; /* a largura máxima para o seu menu, para que ele possa ser centralizado. */
+   
+  }
+  p{
+   color: aliceblue;
+  }
+ 
+
+  #container{
+   display: flexbox;/*deixa uma aquivo do lado do outro*/
+    
+  }
+  .col{
+   padding: 10px 40px;
+  }
+  .card{
+   border-radius: 12px;
+   padding: 0;
+   overflow: hidden;
+   position: relative;
+   transition: all 0.3s linear;
+
+  }
+  .card img{
+   width: 100%;
+   display: block;
+   
+
+
+  }
+  .card h4{
+   color: #ffff;
+   font-size: 16px;
+   text-shadow: 1px 1px 2px rgba (0,0,0,0.7);
+   position: absolute;
+   bottom: 0px;
+   left: 20px;
+   
+  }
+ 
+  .card:hover{
+   box-shadow: 0 0 8px #e6dd96;
+   border: solid 1px #fff ;
+  }
+  #cm{
+   border:1px solid black;
+   width: 400px;
+   height: 100px;
+  }
+  #cm img{
+   width: 400px;
+   height: 400;
+   object-fit: contain;
+   display: inline-block;
+  }
+  #grad{
+   background-image: linear-gradient(rgb(0, 0, 0),#580a0a);
+  }
+  hr{
+   width: 50%;
+
+  }
+  
+  .tit{
+   text-align: center;
+   color: #fff;
+  }
+  .lista{
+   list-style-type: disc;
+   text-align: center;
+  }
+  
+  .sobbox{
+   background: #fdfcfc;
+   width: 500px;
+   height: 100px;
+   text-align: center;
+  }
+  .sobbox h1{
+   width: 500px;
+  }
+  .subbox{
+   background: #ba1d25;
+   width: 100px;
+   height: 100px;
+
+  }
+  
+  .apre p{
+   text-align: center;
+   width: 1000px;
+   line-height: 25px;
+    
+  }
